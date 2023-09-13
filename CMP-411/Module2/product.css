@@ -58,6 +58,14 @@ h1{
   top:0;
   position: absolute;
 }
+
+footer{
+  background-color: #555;
+  color: whitesmoke;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}
 @media screen and (max-width: 800px) {
   .topnav a {
     float: none;
