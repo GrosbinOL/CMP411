@@ -1,0 +1,9 @@
+.flexContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.flexColumn{
+  flex-wrap: wrap;
+  background-color: aqua;
+  flex:1;
+}
