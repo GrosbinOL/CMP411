@@ -6,4 +6,15 @@
   flex-wrap: wrap;
   background-color: aqua;
   flex:1;
+  word-wrap: break-word;
+  overflow: auto;
+  padding: 25px;
+
+}
+@media screen and (max-width: 800px){
+  .flexContainer {
+    flex:none;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
 }
