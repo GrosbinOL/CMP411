@@ -9,8 +9,9 @@
   word-wrap: break-word;
   overflow: auto;
   padding: 25px;
-
+  text-decoration: none;
 }
+
 @media screen and (max-width: 800px){
   .flexContainer {
     flex:none;
