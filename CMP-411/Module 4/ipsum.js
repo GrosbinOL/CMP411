@@ -1,10 +1,13 @@
 function cesarCipher(str){
   let result = "";
   let lowerAlpha = 'abcdefghijklmnopqrstuvwxyz';
-  let capAlpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  let capAlpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   for (let i = 0; i < str.length; i++){
     let currLetter = str[i];
-    if (lowerAlpha.includes(currLetter)){
+    if(currLetter === '</p>'){
+      result += '<br>';
+    }
+    else if (lowerAlpha.includes(currLetter)){
       let alphaIdx = (lowerAlpha.indexOf(currLetter) + 5) % 26;
       result += lowerAlpha[alphaIdx];
     }else if (capAlpha.includes(currLetter)){
@@ -14,6 +17,7 @@ function cesarCipher(str){
       result += currLetter;
     }
   }
+  result = result.replaceAll('</u>' , '<br> <br>')
   return result
 }
 
@@ -45,6 +49,8 @@ function cesarCipher2(str){
         }
     }
   }
+  result = result.replaceAll("</r>", "<br><br>");
+  result = result.replaceAll("</l>" , "<br><br>");
   return result
 }
 
