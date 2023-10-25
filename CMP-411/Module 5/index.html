@@ -18,10 +18,13 @@
 <link href="../Module 5/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+      select{
+        background-color: #737373;
+      }
       .inputTxt{
         color:#353535;
-        font-size: large;
       }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -189,15 +192,12 @@
           <li class="nav-item"><a class="nav-link" href="#">
             <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
           </a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Tour</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Enterprise</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Doane University</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Computing Department</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sales department</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">
-            <svg class="bi" width="24" height="24"><use xlink:href="#cart"/></svg>
-          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#"></a></li>
         </ul>
       </div>
     </div>
@@ -207,8 +207,8 @@
 <main>
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
     <div class="col-md-6 p-lg-5 mx-auto my-5">
-      <h1 class="display-3 fw-bold">Placeholder</h1>
-      <h3 class="fw-normal text-muted mb-3">author name placeholder</h3>
+      <h1 class="display-3 fw-bold" id="quote"> Use baby steps </h1>
+      <h3 class="fw-normal text-muted mb-3" id="author"> - Dr. Alec Engebretson</h3>
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -221,7 +221,13 @@
         <p class="lead">Click Below!</p>
       </div>
       <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-        <h3 class="display-3 fw-bold">buenos dias</h3>
+        <label for="length"><h3 class="inputTxt fw-bold">Which type of quote would you like to see?</h3></label><br>
+        <select for="length" id="length" style="width: 200px;">
+          <option value="1"> Short Quote </option>
+          <option value="2"> Medium Quote </option>
+          <option value="3"> Long Quote </option>
+        </select><br><br>
+        <input type="button" onclick="getQuote()" value="Get My Random Quote">
       </div>
     </div>
 </main>
@@ -235,30 +241,22 @@
     <div class="col-6 col-md">
       <h5>Features</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Other Generators</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Random features</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5>Resources</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#"> Doane University </a></li>
+        <li><a class="link-secondary text-decoration-none" href="#"> CMP Department </a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
       <h5>Resources</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Grosbin Luna</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">Alec Engebretson</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
@@ -266,13 +264,11 @@
       <ul class="list-unstyled text-small">
         <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
         <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-        <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
       </ul>
     </div>
   </div>
 </footer>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="productM5.js"></script>
 
     </body>
 </html>
