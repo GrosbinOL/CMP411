@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "j9BbWeaamnP1cj5qJr81cu2uKOebx/FXYRi+a0HhCd8=",
+  "Source": "MusicApi",
+  "BasePath": "_content/MusicApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MusicApi\\wwwroot",
+      "Source": "MusicApi",
+      "ContentRoot": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\index.html",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\MusicAPI.css",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "MusicAPI.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MusicAPI.css"
+    },
+    {
+      "Identity": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\MusicAPI.js",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "MusicAPI.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MusicAPI.js"
+    }
+  ]
+}

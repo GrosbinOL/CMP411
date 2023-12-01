@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\MusicAPI.css",
+      "PackagePath": "staticwebassets\\MusicAPI.css"
+    },
+    {
+      "Id": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\MusicAPI.js",
+      "PackagePath": "staticwebassets\\MusicAPI.js"
+    },
+    {
+      "Id": "C:\\Users\\Grosb\\Downloads\\MusicApi\\MusicApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MusicApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MusicApi.props",
+      "PackagePath": "build\\MusicApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MusicApi.props",
+      "PackagePath": "buildMultiTargeting\\MusicApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MusicApi.props",
+      "PackagePath": "buildTransitive\\MusicApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

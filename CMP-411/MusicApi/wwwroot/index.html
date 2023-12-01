@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="MusicAPI.css">
+    <title></title>
+</head>
+<body>
+    <h1>Music API Crud</h1>
+    <h3>Add Music</h3>
+    <form onsubmit="addItem()">
+        <input type="text" id="addSongName" placeholder="New Song Name"><br /><br />
+        <input type="text" id="addArtistName" placeholder="New Artist Name"><br /><br />
+        <input type="text" id="addRating" placeholder="Add Rating"><br /><br />
+        <input type="submit" value="Add">
+    </form>
+
+    
+
+    <div id="editForm">
+        <h3>Edit</h3>
+        <form onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-songName">
+            <input type="text" id="edit-artistName">
+            <input type="text" id="edit-rating">
+            <input type="submit" value="Save">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+
+    <table>
+        <tr>
+            <th>Song Name</th>
+            <th>Artist Name</th>
+            <th>Rating</th>
+            <th></th>
+        </tr>
+        <tbody id="musicItems"></tbody>
+    </table>
+    <script src="MusicAPI.js"></script>
+    <script type="text/javascript">
+        getItems();
+    </script>
+
+</body>
+</html>
